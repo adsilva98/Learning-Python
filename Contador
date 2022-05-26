@@ -1,0 +1,59 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled2.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyM0GY8NoeQm8oX+JDKox4Ky",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/adsilva98/Learning-Python/blob/main/Contador\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "cont = 1 #o Contador se é uma variável com um valor a ser decidido;\n",
+        "while cont <=10: #O contador (estrutra) está definido para começar a\n",
+        " #partir de 1 e ir se repetindo até 10 enquanto a estrutura (cont) tiver valor menor ou igual a 10;\n",
+        "  print (cont, ' ', end='') #Digitar o valor do contador + um espaço vazio (' ') + encerramento (end) com um espaço vazio novamente (' ');\n",
+        "  cont +=1 #Aqui o contador irá sempre adicionando +1 enquanto (while) o cont (estrutura) for menor ou igual (<=) a 10\n",
+        "print ('Acabou') #Quando o contador chega a 10, a operação acaba e finaliza com a palavra (print) 'Acabou'"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "55aTPiYm_3xC",
+        "outputId": "7cf4bb0a-f9b5-492c-a37b-7e432302f8c5"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1  2  3  4  5  6  7  8  9  10  Acabou\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
